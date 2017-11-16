@@ -6764,6 +6764,7 @@ RX-&gt;TX</text>
 <text x="162.56" y="109.22" size="1.778" layer="91">INTPU</text>
 <text x="83.82" y="45.72" size="1.778" layer="91">LOW = ON
 HIGH = OFF</text>
+<text x="175.26" y="30.48" size="1.778" layer="91">SENSORS: BME280, SHT31 etc</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="34.29" y="104.14" rot="MR180"/>
