@@ -1615,22 +1615,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C1005">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -3190,22 +3174,6 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="R1005">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -4679,6 +4647,40 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
 <rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
 </package>
+<package name="C01005">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
+<package name="PRL1632">
+<description>&lt;b&gt;PRL1632 are realized as 1W for 3.2 × 1.6mm(1206)&lt;/b&gt;&lt;p&gt;
+Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
+<wire x1="0.7275" y1="-1.5228" x2="-0.7277" y2="-1.5228" width="0.1524" layer="51"/>
+<wire x1="0.7275" y1="1.5228" x2="-0.7152" y2="1.5228" width="0.1524" layer="51"/>
+<smd name="2" x="0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="-0.822" y="0" dx="1" dy="3.2" layer="1"/>
+<text x="-1.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.4" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.4" y2="1.6" layer="51"/>
+<rectangle x1="0.4" y1="-1.6" x2="0.8" y2="1.6" layer="51"/>
+</package>
+<package name="R01005">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -4737,15 +4739,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C1005" package="C1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5420,6 +5413,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="01005" package="C01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R-EU_" prefix="R" uservalue="yes">
@@ -5456,15 +5458,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6193,6 +6186,24 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="PRL1632" package="PRL1632">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="01005" package="R01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -6201,36 +6212,36 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packages>
 <package name="JDY-08">
 <description>JDY-08 BLUETOOTH MODULE</description>
-<smd name="P02/RXDIN" x="7.2" y="0" dx="2" dy="0.9" layer="1"/>
-<smd name="P01" x="7.2" y="1.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P00/PWRCN" x="7.2" y="3" dx="2" dy="0.9" layer="1"/>
-<smd name="P03/TXDOUT" x="7.2" y="-1.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P04/RTCALARMIO" x="7.2" y="-3" dx="2" dy="0.9" layer="1"/>
-<smd name="RSTIN" x="7.2" y="4.5" dx="2" dy="0.9" layer="1"/>
-<smd name="GND" x="7.2" y="6" dx="2" dy="0.9" layer="1"/>
-<smd name="P05/RTCALARMIO" x="7.2" y="-4.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P17" x="-7.7" y="0" dx="2" dy="0.9" layer="1"/>
-<smd name="P16/CONSTATN" x="-7.7" y="-1.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P11/PWM2" x="-7.7" y="-3" dx="2" dy="0.9" layer="1"/>
-<smd name="P12/IO1" x="-7.7" y="-4.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P20" x="-7.7" y="1.5" dx="2" dy="0.9" layer="1"/>
-<smd name="P21/DEBUGDATA" x="-7.7" y="3" dx="2" dy="0.9" layer="1"/>
-<smd name="P22/DEBUGCLOCK" x="-7.7" y="4.5" dx="2" dy="0.9" layer="1"/>
-<smd name="VCC_3.3" x="-7.7" y="6" dx="2" dy="0.9" layer="1"/>
+<smd name="20" x="7.2" y="0" dx="2" dy="0.9" layer="1"/>
+<smd name="21" x="7.2" y="1.5" dx="2" dy="0.9" layer="1"/>
+<smd name="22" x="7.2" y="3" dx="2" dy="0.9" layer="1"/>
+<smd name="19" x="7.2" y="-1.5" dx="2" dy="0.9" layer="1"/>
+<smd name="18" x="7.2" y="-3" dx="2" dy="0.9" layer="1"/>
+<smd name="23" x="7.2" y="4.5" dx="2" dy="0.9" layer="1"/>
+<smd name="24" x="7.2" y="6" dx="2" dy="0.9" layer="1"/>
+<smd name="17" x="7.2" y="-4.5" dx="2" dy="0.9" layer="1"/>
+<smd name="5" x="-7.7" y="0" dx="2" dy="0.9" layer="1"/>
+<smd name="6" x="-7.7" y="-1.5" dx="2" dy="0.9" layer="1"/>
+<smd name="7" x="-7.7" y="-3" dx="2" dy="0.9" layer="1"/>
+<smd name="8" x="-7.7" y="-4.5" dx="2" dy="0.9" layer="1"/>
+<smd name="4" x="-7.7" y="1.5" dx="2" dy="0.9" layer="1"/>
+<smd name="3" x="-7.7" y="3" dx="2" dy="0.9" layer="1"/>
+<smd name="2" x="-7.7" y="4.5" dx="2" dy="0.9" layer="1"/>
+<smd name="1" x="-7.7" y="6" dx="2" dy="0.9" layer="1"/>
 <wire x1="-7.8" y1="-6.3" x2="7.3" y2="-6.3" width="0.127" layer="21"/>
 <wire x1="7.3" y1="-6.3" x2="7.3" y2="8.1" width="0.127" layer="21"/>
 <wire x1="7.3" y1="8.1" x2="7.3" y2="13.75" width="0.127" layer="48"/>
 <wire x1="7.3" y1="13.75" x2="-7.8" y2="13.75" width="0.127" layer="48"/>
 <wire x1="-7.8" y1="13.75" x2="-7.8" y2="8.1" width="0.127" layer="48"/>
 <text x="-3.05" y="4.55" size="1.27" layer="25">JDY-08</text>
-<smd name="P13/IO2" x="-5.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="P15/IO3" x="-4" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="SCK" x="-2.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="SDA" x="-1" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="P14/IO4" x="0.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="P10/PWM1" x="2" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="P07/PWM3" x="3.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
-<smd name="P06/PWM4" x="5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="9" x="-5.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="10" x="-4" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="11" x="-2.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="12" x="-1" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="13" x="0.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="14" x="2" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="15" x="3.5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
+<smd name="16" x="5" y="-6.1" dx="2" dy="0.9" layer="1" rot="R90"/>
 <wire x1="-7.8" y1="8.1" x2="-7.8" y2="-6.3" width="0.127" layer="21"/>
 <wire x1="-7.8" y1="8.1" x2="7.3" y2="8.1" width="0.127" layer="21"/>
 <wire x1="-5.9" y1="8.9" x2="-5.9" y2="12.7" width="0.127" layer="48"/>
@@ -6257,32 +6268,32 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="35.56" width="0.254" layer="94"/>
 <wire x1="22.86" y1="35.56" x2="-20.32" y2="35.56" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="35.56" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VCC_3.3" x="-25.4" y="17.78" visible="pin" length="middle"/>
-<pin name="P22/DEBUGCLOCK" x="-25.4" y="15.24" visible="pin" length="middle"/>
-<pin name="P21/DEBUGDATA" x="-25.4" y="12.7" visible="pin" length="middle"/>
-<pin name="P20" x="-25.4" y="10.16" visible="pin" length="middle"/>
-<pin name="P17" x="-25.4" y="7.62" visible="pin" length="middle"/>
-<pin name="P16/CONSTATN" x="-25.4" y="5.08" visible="pin" length="middle"/>
-<pin name="P11/PWM2" x="-25.4" y="2.54" visible="pin" length="middle"/>
-<pin name="P12/IO1" x="-25.4" y="0" visible="pin" length="middle"/>
-<pin name="P05/RTCIOALARM" x="27.94" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="P04/RTCIOALARM" x="27.94" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="P03/TXDOUT" x="27.94" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="P02/RXDIN" x="27.94" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="P01" x="27.94" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="P00/PWRCN" x="27.94" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="RSTIN" x="27.94" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="27.94" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC_3.3" x="-25.4" y="17.78" length="middle"/>
+<pin name="P22/DEBUGCLOCK" x="-25.4" y="15.24" length="middle"/>
+<pin name="P21/DEBUGDATA" x="-25.4" y="12.7" length="middle"/>
+<pin name="P20" x="-25.4" y="10.16" length="middle"/>
+<pin name="P17" x="-25.4" y="7.62" length="middle"/>
+<pin name="P16/CONSTATN" x="-25.4" y="5.08" length="middle"/>
+<pin name="P11/PWM2" x="-25.4" y="2.54" length="middle"/>
+<pin name="P12/IO1" x="-25.4" y="0" length="middle"/>
+<pin name="P05/RTCIOALARM" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="P04/RTCIOALARM" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="P03/TXDOUT" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="P02/RXDIN" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="P01" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="P00/PWRCN" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="RSTIN" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="GND" x="27.94" y="17.78" length="middle" rot="R180"/>
 <text x="-2.54" y="17.78" size="1.27" layer="94">JDY-08</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="94">JDY-08</text>
-<pin name="P13/IO2" x="-7.62" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="P15/IO3" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="SCK" x="-2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="SDA" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="P14/IO4" x="2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="P07/PWM3" x="7.62" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="P10/PWM1" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="P06/PWM4" x="10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="P13/IO2" x="-7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="P15/IO3" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="SCK" x="-2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="SDA" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="P14/IO4" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="P07/PWM3" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="P10/PWM1" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="P06/PWM4" x="10.16" y="-20.32" length="middle" rot="R90"/>
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="33.02" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="33.02" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
@@ -6301,38 +6312,38 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JDY-08" prefix="U" uservalue="yes">
+<deviceset name="JDY-08" prefix="U">
 <description>JDY-08 Bluetooth 4.0 Transceiver based on TI CC2540/CC2541</description>
 <gates>
 <gate name="G$1" symbol="JDY-08" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JDY-08">
+<device name="JDY-08_MODULE" package="JDY-08">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="P00/PWRCN" pad="P00/PWRCN"/>
-<connect gate="G$1" pin="P01" pad="P01"/>
-<connect gate="G$1" pin="P02/RXDIN" pad="P02/RXDIN"/>
-<connect gate="G$1" pin="P03/TXDOUT" pad="P03/TXDOUT"/>
-<connect gate="G$1" pin="P04/RTCIOALARM" pad="P04/RTCALARMIO"/>
-<connect gate="G$1" pin="P05/RTCIOALARM" pad="P05/RTCALARMIO"/>
-<connect gate="G$1" pin="P06/PWM4" pad="P06/PWM4"/>
-<connect gate="G$1" pin="P07/PWM3" pad="P07/PWM3"/>
-<connect gate="G$1" pin="P10/PWM1" pad="P10/PWM1"/>
-<connect gate="G$1" pin="P11/PWM2" pad="P11/PWM2"/>
-<connect gate="G$1" pin="P12/IO1" pad="P12/IO1"/>
-<connect gate="G$1" pin="P13/IO2" pad="P13/IO2"/>
-<connect gate="G$1" pin="P14/IO4" pad="P14/IO4"/>
-<connect gate="G$1" pin="P15/IO3" pad="P15/IO3"/>
-<connect gate="G$1" pin="P16/CONSTATN" pad="P16/CONSTATN"/>
-<connect gate="G$1" pin="P17" pad="P17"/>
-<connect gate="G$1" pin="P20" pad="P20"/>
-<connect gate="G$1" pin="P21/DEBUGDATA" pad="P21/DEBUGDATA"/>
-<connect gate="G$1" pin="P22/DEBUGCLOCK" pad="P22/DEBUGCLOCK"/>
-<connect gate="G$1" pin="RSTIN" pad="RSTIN"/>
-<connect gate="G$1" pin="SCK" pad="SCK"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VCC_3.3" pad="VCC_3.3"/>
+<connect gate="G$1" pin="GND" pad="24"/>
+<connect gate="G$1" pin="P00/PWRCN" pad="22"/>
+<connect gate="G$1" pin="P01" pad="21"/>
+<connect gate="G$1" pin="P02/RXDIN" pad="20"/>
+<connect gate="G$1" pin="P03/TXDOUT" pad="19"/>
+<connect gate="G$1" pin="P04/RTCIOALARM" pad="18"/>
+<connect gate="G$1" pin="P05/RTCIOALARM" pad="17"/>
+<connect gate="G$1" pin="P06/PWM4" pad="16"/>
+<connect gate="G$1" pin="P07/PWM3" pad="15"/>
+<connect gate="G$1" pin="P10/PWM1" pad="14"/>
+<connect gate="G$1" pin="P11/PWM2" pad="7"/>
+<connect gate="G$1" pin="P12/IO1" pad="8"/>
+<connect gate="G$1" pin="P13/IO2" pad="9"/>
+<connect gate="G$1" pin="P14/IO4" pad="13"/>
+<connect gate="G$1" pin="P15/IO3" pad="10"/>
+<connect gate="G$1" pin="P16/CONSTATN" pad="6"/>
+<connect gate="G$1" pin="P17" pad="5"/>
+<connect gate="G$1" pin="P20" pad="4"/>
+<connect gate="G$1" pin="P21/DEBUGDATA" pad="3"/>
+<connect gate="G$1" pin="P22/DEBUGCLOCK" pad="2"/>
+<connect gate="G$1" pin="RSTIN" pad="23"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
+<connect gate="G$1" pin="SDA" pad="12"/>
+<connect gate="G$1" pin="VCC_3.3" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6722,7 +6733,7 @@ http://dangerousprototypes.com</description>
 <part name="GND8" library="freetronics-original" deviceset="GND" device=""/>
 <part name="GND4" library="freetronics-original" deviceset="GND" device=""/>
 <part name="P+2" library="freetronics-original" deviceset="3.3V" device=""/>
-<part name="U1" library="JDY-08" deviceset="JDY-08" device=""/>
+<part name="U1" library="JDY-08" deviceset="JDY-08" device="JDY-08_MODULE"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-IRLML2244" value="NOFIT_SI2319CDS-T1-GE3"/>
 <part name="P+6" library="freetronics-original" deviceset="3.3V" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -6739,8 +6750,8 @@ http://dangerousprototypes.com</description>
 <text x="27.94" y="101.6" size="1.778" layer="94" align="bottom-right">GPIO12/MISO</text>
 <text x="228.6" y="104.14" size="1.778" layer="94">GPIO4/SDA</text>
 <text x="228.6" y="106.68" size="1.778" layer="94">GPIO5/SCL</text>
-<text x="228.6" y="109.22" size="1.778" layer="94">RXD0</text>
-<text x="228.6" y="111.76" size="1.778" layer="94">TXD0</text>
+<text x="228.6" y="109.22" size="1.778" layer="94">GPIO3/RXD0</text>
+<text x="228.6" y="111.76" size="1.778" layer="94">GPIO1/TXD0</text>
 <text x="27.94" y="99.06" size="1.778" layer="94" align="bottom-right">GPIO13/MOSI/RXD2</text>
 <text x="27.94" y="104.14" size="1.778" layer="94" align="bottom-right">GPIO14/CLK</text>
 <text x="27.94" y="96.52" size="1.778" layer="94" align="bottom-right">GPIO15/CS/TXD2</text>
@@ -6762,14 +6773,22 @@ D8: 10k pulldown on D1 Mini</text>
 <text x="190.5" y="101.6" size="1.778" layer="97">10k pullup</text>
 <text x="190.5" y="99.06" size="1.778" layer="97">10k pullup</text>
 <text x="7.62" y="20.32" size="1.778" layer="97">For full D1 Mini specs see http://www.wemos.cc/Products/d1_mini.html</text>
-<text x="25.4" y="165.1" size="1.778" layer="91">RST active ??? ????? ESP8266</text>
-<text x="25.4" y="170.18" size="1.778" layer="91">USING 0805 FOR EASE OF SELF BUILD</text>
+<text x="12.7" y="165.1" size="1.778" layer="91">RST ACTIVE ??? ????? ESP8266</text>
+<text x="12.7" y="167.64" size="1.778" layer="91">USING 0805 FOR EASE OF SELF BUILD</text>
 <text x="157.48" y="83.82" size="1.778" layer="91">TX-&gt;RX
 RX-&gt;TX</text>
 <text x="162.56" y="109.22" size="1.778" layer="91">INTPU</text>
-<text x="83.82" y="45.72" size="1.778" layer="91">LOW = ON
-HIGH = OFF</text>
-<text x="175.26" y="30.48" size="1.778" layer="91">SENSORS: BME280, SHT31 etc</text>
+<text x="73.66" y="45.72" size="1.778" layer="91">D0 LOW = ON
+D0 HIGH = OFF</text>
+<text x="175.26" y="30.48" size="1.778" layer="91">3.3V POWERED SENSORS: BME280, SHT31 etc</text>
+<text x="12.7" y="170.18" size="1.778" layer="91">WARNING: JDY-08 MODULE DEFAULTS TO
+115200 BAUD. SOFTWARE SERIAL IS 
+UNLIKELY TO WORK WITHOUT ERRORS 
+AT THIS SPEED. NEEDS TESTING</text>
+<text x="12.7" y="162.56" size="1.778" layer="91">NO FITS ARE OPTIONAL USED FOR DEVELOPMENT PURPOSES.</text>
+<text x="12.7" y="154.94" size="1.778" layer="91">GPIO NUMBERS ARE ARDUINO DIGITAL 
+PINS. D NUMBER ARE NODEMCU PINS.
+https://escapequotes.net/esp8266-wemos-d1-mini-pins-and-diagram/</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="34.29" y="104.14" rot="MR180"/>
